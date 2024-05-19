@@ -121,24 +121,5 @@ export class UsersService {
         completed: completionPercentage == 100,
       };
     });
-
-    // // Retrieve completed course ids
-    // const completedCourseIds = user.completedCourses.map((course) => course.id);
-    // const completedLessonIds = user.completedLessons.map((lesson) => lesson.id);
-
-    // // Get all courses and map them to include completed flag
-    // const courses = await this.courseRepository.find({
-    //   relations: ['lessons'],
-    // });
-    // const coursesWithCompletionFlag = courses.map((course) => ({
-    //   ...course,
-    //   completed: completedCourseIds.includes(course.id),
-    //   lessons: course.lessons.map((lesson) => ({
-    //     ...lesson,
-    //     completed: completedLessonIds.includes(lesson.id),
-    //   })),
-    // }));
-
-    // return coursesWithCompletionFlag;
   }
 }
