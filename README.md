@@ -23,7 +23,7 @@ The server runs on port `3000`. Access it using http://localhost:3000
 ![alt text](https://github.com/sanidhya-saraswat/nest-js-assignment/blob/main/extra_items/db_schema.png?raw=true)
 
 ## Routing
-All API routes are authenticated. So you need to be logged in to access any route which you can do by `/auth/login` API. There are 2 types of routes: Admin and Non-admin. Admin routes will allow the user to perform CRUD operations on users, courses and lessons. Two dummy users are created to for you to try things out
+All API routes are authenticated. So you need to be logged in to access any route which you can do by `/auth/login` API. There are 2 types of routes: Admin and Non-admin. Admin routes will allow the user to perform CRUD operations on users, courses and lessons. **Two dummy users and some dummy courses are created for you to try things out**
 #### Admin User
 ```
 username: "admin"
